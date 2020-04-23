@@ -10,8 +10,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "dev": "webpack-dev-server --mode development",
-    "duild": "webpack --mode production"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll=false",
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
